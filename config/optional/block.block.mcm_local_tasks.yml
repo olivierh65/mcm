@@ -1,0 +1,22 @@
+uuid: 010bbb63-6024-40fc-b8f1-7bc954865699
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mcm
+_core:
+  default_config_hash: 0sXDOYGUu85FvekYjhiwGyZePogle2jeDjBQjW1rjgA
+id: mcm_local_tasks
+theme: mcm
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

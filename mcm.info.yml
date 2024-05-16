@@ -1,0 +1,43 @@
+name: mcm
+type: theme
+base theme: zeropoint
+description: Theme derive de zeropoint
+package: Custom
+core_version_requirement: ^10
+libraries:
+  - mcm/global
+  - mcm/mcm-custom
+  - zeropoint/base
+  - zeropoint/messages
+  - zeropoint/zeropoint-style
+  - core/normalize
+
+
+version: 0.1
+
+
+# Regions
+regions:
+  page_top: 'Page top'
+  topreg: 'Top region'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  breadcrumb: Breadcrumb
+  user1: 'User 1'
+  user2: 'User 2'
+  user3: 'User 3'
+  user4: 'User 4'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  user5: 'User 5'
+  user6: 'User 6'
+  user7: 'User 7'
+  user8: 'User 8'
+  tertiary_menu: 'Tertiary menu'
+  footer: 'Footer'
+  page_bottom: 'Page bottom'
+

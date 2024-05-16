@@ -1,0 +1,22 @@
+uuid: 3b466127-86f3-4ef3-8efd-a3968c5fd851
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mcm
+_core:
+  default_config_hash: ICnNxKUpMk3fYY_5XXGbpdy-iEWamDbGYFxM1aOOOVo
+id: mcm_messages
+theme: mcm
+region: help
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

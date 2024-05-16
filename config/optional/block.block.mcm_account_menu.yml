@@ -1,0 +1,27 @@
+uuid: 1ca67f94-e57e-4b1d-a495-6a1969ff42a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - mcm
+_core:
+  default_config_hash: EyZWtiwCnqkUsiI4kIzUKAxxwfNIJMpqCLRZZtHYZAo
+id: mcm_account_menu
+theme: mcm
+region: topreg
+weight: 2
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

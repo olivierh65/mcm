@@ -1,0 +1,22 @@
+uuid: ba2ea00c-cd07-4559-956c-c7d04675b005
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mcm
+_core:
+  default_config_hash: z23qJA7Lc9jbCFC_1e5Mcu3aHLaSyhyqAnZon1gHGtw
+id: mcm_content
+theme: mcm
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 82a1e159-5dc7-4351-88a7-73ee2e3dede0
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - mcm
+_core:
+  default_config_hash: JnL3SwTtLl_093sPIwsAWhPnx1GFXDOxh8NVJTKaDo4
+id: mcm_breadcrumbs
+theme: mcm
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

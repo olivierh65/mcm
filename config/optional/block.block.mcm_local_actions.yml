@@ -1,0 +1,20 @@
+uuid: ed116e52-e91a-4405-9656-5e50e884e789
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mcm
+_core:
+  default_config_hash: '-3ds_bsF8MtsGFkmK34qvO-5ah5hZ-H4hgfXcmYc7ZQ'
+id: mcm_local_actions
+theme: mcm
+region: content
+weight: -1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

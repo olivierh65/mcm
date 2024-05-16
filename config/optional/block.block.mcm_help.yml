@@ -1,0 +1,22 @@
+uuid: f2e2a3ca-f9dd-4b29-8160-f8ea2f93fb5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mcm
+_core:
+  default_config_hash: 7eURKoS48EmL4awoYszkoDCF9FCZl6EEzi4cvRKAssU
+id: mcm_help
+theme: mcm
+region: help
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

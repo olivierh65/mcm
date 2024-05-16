@@ -1,0 +1,22 @@
+uuid: 42a93729-92a8-42d2-bf13-d7478afea6c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - mcm
+_core:
+  default_config_hash: 1YVkkEbkys4VrF9kMSGCC0r4vhdMsVq5lW-4rmRIH6Y
+id: mcm_userlogin
+theme: mcm
+region: sidebar_second
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }

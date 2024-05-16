@@ -1,0 +1,25 @@
+uuid: f7f00e47-637e-4ab4-b038-248234137727
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mcm
+_core:
+  default_config_hash: 66VcaKUj3J0Tycxxs5avzTnwSNnoNrfgfwELCo9m0NM
+id: mcm_branding
+theme: mcm
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

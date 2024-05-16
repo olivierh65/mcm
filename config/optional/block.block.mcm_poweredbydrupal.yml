@@ -1,0 +1,22 @@
+uuid: 93f52314-e9ab-4b09-93c6-851ac4d75e27
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mcm
+_core:
+  default_config_hash: 8l0IFDRY_oax90uwLJx6biqL5GrimVAWE_Tjs2jYjQE
+id: mcm_poweredbydrupal
+theme: mcm
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

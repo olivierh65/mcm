@@ -1,0 +1,22 @@
+uuid: ecc914f9-e9c4-4c12-bbd0-be718d90f175
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - mcm
+_core:
+  default_config_hash: L0Xb2o9pjtS8DCSDTpei8RuMOn0Rz98M-cIqvlQCTwg
+id: mcm_languageswitcher
+theme: mcm
+region: topreg
+weight: 1
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }
